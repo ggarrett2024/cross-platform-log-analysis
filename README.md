@@ -1,6 +1,6 @@
-# Log File Analysis Portfolio
+# Log File Analysis
 
-This cybersecurity portfolio presents a comparative analysis of Windows and Linux log files, the tools used to review them, and the security events produced by scripted system changes. The project was completed for **IS-6303: Voice and Data Security** on **April 19, 2025**.
+This portion of the portfolio presents a comparative analysis of Windows and Linux log files, the tools used to review them, and the security events produced by scripted system changes.
 
 The portfolio focuses on how log data can be used to reconstruct system activity, identify unusual behavior, and recognize events that may indicate unauthorized access or system compromise.
 
