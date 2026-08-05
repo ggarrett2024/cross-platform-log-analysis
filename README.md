@@ -71,7 +71,7 @@ KSystemLog provided the clearest view of the Linux script activity because event
 The `docs` directory contains the summarized written documentation for the project. Each file focuses on a different part of the log-analysis process.
 
 - `findings.md` documents the security-relevant activity identified in the Windows and Linux logs, including account creation, password changes, privilege escalation, remote command execution, and cleanup behavior.
-- `methodology.md` explains the scope of the project, the evidence used, the analysis process, platform-specific review methods, and the limitations of the work.
+- `methodology.md` explains the analysis process, platform-specific review methods, and the limitations of the work.
 - `tool-comparison.md` compares Windows Event Viewer, KSystemLog, and Splunk based on platform support, usability, filtering, monitoring, cost, scalability, and appropriate use cases.
 
 ### `full-report/`
