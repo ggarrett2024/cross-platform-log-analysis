@@ -63,3 +63,25 @@ The second Windows script generated warnings associated with remote command exec
 ### Tool Comparison Outcome
 
 KSystemLog provided the clearest view of the Linux script activity because event descriptions and timestamps were visible without opening each record individually. Windows Event Viewer contained the necessary information but made it more difficult to separate script-generated events from normal background activity. Splunk offered the strongest capabilities for high-volume, cross-platform, enterprise monitoring, but its cost can make it less practical for smaller environments.
+
+## Repository Sections
+
+### `docs/`
+
+The `docs` directory contains the summarized written documentation for the project. Each file focuses on a different part of the log-analysis process.
+
+- `findings.md` documents the security-relevant activity identified in the Windows and Linux logs, including account creation, password changes, privilege escalation, remote command execution, and cleanup behavior.
+- `methodology.md` explains the scope of the project, the evidence used, the analysis process, platform-specific review methods, and the limitations of the work.
+- `tool-comparison.md` compares Windows Event Viewer, KSystemLog, and Splunk based on platform support, usability, filtering, monitoring, cost, scalability, and appropriate use cases.
+
+### `full-report/`
+
+The `full-report` directory contains the sanitized version of the original lab report.
+
+- `sanitized-lab-report.pdf` provides the original project narrative, technical background, analysis, findings, figures, and references while removing personal or identifying information that should not appear in a public repository.
+
+### `images/`
+
+The `images` directory contains screenshots and figures extracted from the original report.
+
+These images provide visual evidence of the logging tools, account activity, Windows events, Linux events, cleanup behavior, and encoded PowerShell content discussed throughout the project documentation. The filenames describe the activity shown in each image so they can be easily referenced.
