@@ -85,3 +85,5 @@ The `full-report` directory contains the sanitized version of the original lab r
 The `images` directory contains screenshots and figures extracted from the original report.
 
 These images provide visual evidence of the logging tools, account activity, Windows events, Linux events, cleanup behavior, and encoded PowerShell content discussed throughout the project documentation. The filenames describe the activity shown in each image so they can be easily referenced.
+
+[Click Here to return to the Cybersecurity Portfolio](https://github.com/ggarrett2024/Cybersecurity-Portfolio)
